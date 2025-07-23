@@ -8,7 +8,7 @@ function App() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="https://placehold.co/40x40/000000/FFFFFF?text=Logo" alt="Company Logo" className="h-10 w-10 rounded-full mr-2" />
+            <img src="./src/assets/group 4.png" alt="Company Logo" className="h-10 w-10 rounded-full mr-2" />
             <span className="text-xl font-bold text-gray-800">SuperEnergy</span>
           </div>
           {/* Navigation */}
@@ -29,7 +29,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative bg-cover bg-center h-[600px] flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('https://placehold.co/1920x600/333333/FFFFFF?text=Oil+Rig+Background')" }}>
+        style={{ backgroundImage: "./src/assets/Screenshot 2022-08-10 at 3.15.png" }}>
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl font-extrabold mb-4 leading-tight">Welcome To The Super Energy Ltd.</h1>
@@ -47,7 +47,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Service Card 1 */}
           <div className="bg-white rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
-            <img src="https://placehold.co/600x400/007bff/FFFFFF?text=Oil+Extraction" alt="Oil Extraction" className="w-full h-48 object-cover rounded-t-lg" />
+            <img src="./src/assets/11.jpg" alt="Oil Extraction" className="w-full h-48 object-cover rounded-t-lg" />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-900">OIL EXTRACTION</h3>
               <p className="text-gray-600 text-sm">
@@ -57,7 +57,7 @@ function App() {
           </div>
           {/* Service Card 2 */}
           <div className="bg-white rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
-            <img src="https://placehold.co/600x400/28a745/FFFFFF?text=Pipelines+Building" alt="Pipelines Building" className="w-full h-48 object-cover rounded-t-lg" />
+            <img src="./src/assets/21.jpg" alt="Pipelines Building" className="w-full h-48 object-cover rounded-t-lg" />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-900">PIPELINES BUILDING</h3>
               <p className="text-gray-600 text-sm">
@@ -67,7 +67,7 @@ function App() {
           </div>
           {/* Service Card 3 */}
           <div className="bg-white rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
-            <img src="https://placehold.co/600x400/ffc107/FFFFFF?text=Oil+Refinement" alt="Oil Refinement" className="w-full h-48 object-cover rounded-t-lg" />
+            <img src="./src/assets/31.jpg" alt="Oil Refinement" className="w-full h-48 object-cover rounded-t-lg" />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-900">OIL REFINEMENT</h3>
               <p className="text-gray-600 text-sm">
@@ -85,28 +85,28 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Project Card 1 */}
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-              <img src="https://placehold.co/400x300/6c757d/FFFFFF?text=Project+1" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src="./src/assets/ccc.png" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-4">
                 <h4 className="text-lg font-semibold text-white">Frozen Trees In A Lake</h4>
               </div>
             </div>
             {/* Project Card 2 */}
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-              <img src="https://placehold.co/400x300/6c757d/FFFFFF?text=Project+2" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src="./src/assets/ddd.png" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-4">
                 <h4 className="text-lg font-semibold text-white">Frozen Trees In A Lake</h4>
               </div>
             </div>
             {/* Project Card 3 */}
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-              <img src="https://placehold.co/400x300/6c757d/FFFFFF?text=Project+3" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src="./src/assets/eee.png" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-4">
                 <h4 className="text-lg font-semibold text-white">Frozen Trees In A Lake</h4>
               </div>
             </div>
             {/* Project Card 4 */}
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-              <img src="https://placehold.co/400x300/6c757d/FFFFFF?text=Project+4" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src="./src/assets/fff.png" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-4">
                 <h4 className="text-lg font-semibold text-white">Frozen Trees In A Lake</h4>
               </div>
@@ -131,8 +131,8 @@ function App() {
             </p>
           </div>
           <div className="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <img src="https://placehold.co/600x400/007bff/FFFFFF?text=Industry+Image+1" alt="Industry Image 1" className="w-full h-64 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" />
-            <img src="https://placehold.co/600x400/28a745/FFFFFF?text=Industry+Image+2" alt="Industry Image 2" className="w-full h-64 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="./src/assets/aaa.png" alt="Industry Image 1" className="w-full h-64 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="./src/assets/bbb.png" alt="Industry Image 2" className="w-full h-64 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
       </section>
