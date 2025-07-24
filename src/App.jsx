@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from '../assets/images/Group4.png';
-import rocket from '../assets/images/rocket.png';
-import drill from '../assets/images/11.jpg';
-import pipe from '../assets/images/21.jpg';
-import oil from '../assets/images/31.jpg';
-import man from '../assets/images/ccc.png';
-import blue from '../assets/images/ddd.png';
-import sky from '../assets/images/fff.png';
-import fork from '../assets/images/eee.png';
-import tall from '../assets/images/bbb.png';
-import short from '../assets/images/aaa.png';
+// import logo from '../assets/images/Group4.png';
+// import rocket from '../assets/images/rocket.png';
+// import drill from '../assets/images/11.jpg';
+// import pipe from '../assets/images/21.jpg';
+// import oil from '../assets/images/31.jpg';
+// import man from '../assets/images/ccc.png';
+// import blue from '../assets/images/ddd.png';
+// import sky from '../assets/images/fff.png';
+// import fork from '../assets/images/eee.png';
+// import tall from '../assets/images/bbb.png';
+// import short from '../assets/images/aaa.png';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={logo} alt="Company Logo" className="h-10 w-10 rounded-full mr-2" />
+            <img src="/images/Group4.png" alt="Company Logo" className="h-10 w-10 rounded-full mr-2" />
             <span className="text-xl font-bold text-gray-800">SuperEnergy</span>
           </div>
           {/* Navigation */}
@@ -40,7 +40,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative bg-cover bg-center h-[600px] flex items-center justify-center text-white"
-        style={{ backgroundImage: `url(${rocket})` }}>
+        style={{ backgroundImage: `url(/images/rocket.png)` }}>
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl font-extrabold mb-4 leading-tight">Welcome To The Super Energy Ltd.</h1>
@@ -58,7 +58,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Service Card 1 */}
           <div className="bg-white rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
-            <img src={drill} alt="Oil Extraction" className="w-full h-48 object-cover rounded-t-lg" />
+            <img src="/images/11.jpg" alt="Oil Extraction" className="w-full h-48 object-cover rounded-t-lg" />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-900">OIL EXTRACTION</h3>
               <p className="text-gray-600 text-sm">
@@ -68,7 +68,7 @@ function App() {
           </div>
           {/* Service Card 2 */}
           <div className="bg-white rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
-            <img src={pipe} alt="Pipelines Building" className="w-full h-48 object-cover rounded-t-lg" />
+            <img src="/images/21.jpg" alt="Pipelines Building" className="w-full h-48 object-cover rounded-t-lg" />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-900">PIPELINES BUILDING</h3>
               <p className="text-gray-600 text-sm">
@@ -78,7 +78,7 @@ function App() {
           </div>
           {/* Service Card 3 */}
           <div className="bg-white rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
-            <img src={oil} alt="Oil Refinement" className="w-full h-48 object-cover rounded-t-lg" />
+            <img src="/images/31.jpg" alt="Oil Refinement" className="w-full h-48 object-cover rounded-t-lg" />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-900">OIL REFINEMENT</h3>
               <p className="text-gray-600 text-sm">
@@ -96,28 +96,28 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Project Card 1 */}
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-              <img src={man} alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src="/images/ccc.png" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-4">
                 <h4 className="text-lg font-semibold text-white">Frozen Trees In A Lake</h4>
               </div>
             </div>
             {/* Project Card 2 */}
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-              <img src={blue} alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src="/images/ddd.png" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-4">
                 <h4 className="text-lg font-semibold text-white">Frozen Trees In A Lake</h4>
               </div>
             </div>
             {/* Project Card 3 */}
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-              <img src={sky} alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src="/images/fff.png" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-4">
                 <h4 className="text-lg font-semibold text-white">Frozen Trees In A Lake</h4>
               </div>
             </div>
             {/* Project Card 4 */}
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-              <img src={fork} alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
+              <img src="/images/eee.png" alt="Frozen Trees In A Lake" className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-4">
                 <h4 className="text-lg font-semibold text-white">Frozen Trees In A Lake</h4>
               </div>
@@ -142,8 +142,8 @@ function App() {
             </p>
           </div>
           <div className="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <img src={tall} alt="Industry Image 1" className="w-full h-64 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" />
-            <img src={short} alt="Industry Image 2" className="w-full h-64 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="/images/bbb.png" alt="Industry Image 1" className="w-full h-64 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="/images/aaa.png" alt="Industry Image 2" className="w-full h-64 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
       </section>
