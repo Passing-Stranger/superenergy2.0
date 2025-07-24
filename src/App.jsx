@@ -40,7 +40,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative bg-cover bg-center h-[600px] flex items-center justify-center text-white"
-        style={{ backgroundImage: {rocket} }}>
+        style={{ backgroundImage: `url(${rocket})` }}>
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl font-extrabold mb-4 leading-tight">Welcome To The Super Energy Ltd.</h1>
