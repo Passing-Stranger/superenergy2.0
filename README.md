@@ -33,7 +33,7 @@ You'll need to have Node.js and npm installed on your local machine.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/your-project-name.git](https://github.com/your-username/your-project-name.git)
+    git clone [https://github.com/your-username/your-project-name.git](https://github.com/Passing-Stranger/superenergy2.0.git)
     ```
 2.  Navigate into the project directory:
     ```bash
