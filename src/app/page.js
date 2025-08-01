@@ -1,6 +1,9 @@
 'use client';
 
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
   return (
@@ -39,7 +42,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-cover bg-center h-[70vh] flex items-center justify-start"
         style={{ backgroundImage: 'url(/images/rocket.png)' }}>
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div className="absolute inset-0 bg-opacity-90"></div>
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-2xl">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight text-white">
@@ -54,20 +57,46 @@ export default function Home() {
             
             {/* Social Icons */}
             <div className="flex space-x-4 mt-8">
-              <div className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer">
-                <span className="text-white text-sm font-bold">f</span>
-              </div>
-              <div className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer">
-                <span className="text-white text-sm font-bold">in</span>
-              </div>
-              <div className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer">
-                <span className="text-white text-sm font-bold">@</span>
-              </div>
-              <div className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer">
-                <span className="text-white text-sm font-bold">ig</span>
-              </div>
-            </div>
-          </div>
+    {/* Facebook Icon */}
+    <a 
+        href="https://facebook.com/your-profile-url"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer"
+    >
+        <FontAwesomeIcon icon={faFacebookF} className="text-[#F16214] text-lg" />
+    </a>
+
+    {/* Twitter Icon */}
+    <a 
+        href="https://twitter.com/your-profile-url"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer"
+    >
+        <FontAwesomeIcon icon={faTwitter} className="text-[#F16214] text-lg" />
+    </a>
+
+    {/* Instagram Icon */}
+    <a 
+        href="https://instagram.com/your-profile-url"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer"
+    >
+        <FontAwesomeIcon icon={faInstagram} className="text-[#F16214] text-lg" />
+    </a>
+
+    {/* Email Icon */}
+    <a 
+        href="mailto:team@superenergy.ng"
+        className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all duration-300 cursor-pointer"
+    >
+        <FontAwesomeIcon icon={faEnvelope} className="text-[#F16214] text-lg" />
+    </a>
+
+        </div>
+        </div>
         </div>
         
         {/* Dots Indicator */}
@@ -234,14 +263,14 @@ export default function Home() {
                 alt="Industry Image 1" 
                 width={300} 
                 height={250} 
-                className="w-full h-60 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" 
+                className="w-full h-80 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" 
               />
               <Image 
                 src="/images/aaa.png" 
                 alt="Industry Image 2" 
                 width={300} 
                 height={250} 
-                className="w-full h-60 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" 
+                className="w-full h-80 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" 
               />
             </div>
           </div>
@@ -311,20 +340,46 @@ export default function Home() {
             {/* Get In Touch */}
             <div>
               <h4 className="text-xl font-bold mb-4 text-orange-500">GET IN TOUCH</h4>
-              <h5 className="text-lg font-semibold mb-4">Follow Our Activities</h5>
-              <div className="flex space-x-4">
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-orange-600 transition-colors duration-300">
-                  <span className="text-white font-bold">f</span>
-                </div>
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-orange-600 transition-colors duration-300">
-                  <span className="text-white font-bold">@</span>
-                </div>
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-orange-600 transition-colors duration-300">
-                  <span className="text-white font-bold">in</span>
-                </div>
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-orange-600 transition-colors duration-300">
-                  <span className="text-white font-bold">ig</span>
-                </div>
+<h5 className="text-lg font-semibold mb-4">Follow Our Activities</h5>
+<div className="flex space-x-4">
+    {/* Facebook Icon */}
+    <a 
+        href="https://facebook.com/your-profile-url"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-orange-600 transition-colors duration-300"
+    >
+        <FontAwesomeIcon icon={faFacebookF} className="text-white text-lg" />
+    </a>
+
+    {/* Email Icon */}
+    <a 
+        href="mailto:your-email-address@example.com"
+        className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-orange-600 transition-colors duration-300"
+    >
+        <FontAwesomeIcon icon={faEnvelope} className="text-white text-lg" />
+    </a>
+
+    {/* Twitter Icon */}
+    <a 
+        href="https://twitter.com/your-profile-url"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-orange-600 transition-colors duration-300"
+    >
+        <FontAwesomeIcon icon={faTwitter} className="text-white text-lg" />
+    </a>
+
+    {/* Instagram Icon */}
+    <a 
+        href="https://instagram.com/your-profile-url"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-orange-600 transition-colors duration-300"
+    >
+        <FontAwesomeIcon icon={faInstagram} className="text-white text-lg" />
+    </a>
+
               </div>
             </div>
           </div>
